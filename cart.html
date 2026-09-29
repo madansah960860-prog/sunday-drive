@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Cart | Sunday Drive Goods</title>
+  <meta name="description" content="Your Sunday Drive Goods cart with the exact subtotal, $8.95 flat shipping and free shipping over $65 applied automatically.">
+  <meta name="theme-color" content="#0B3A40">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="wordmark" href="index.html">
+        <span class="wm-text">Sunday Drive Goods</span>
+        <span class="wm-sub">Tucson, Arizona &middot; Est. this year</span>
+      </a>
+      <div class="header-tools">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+          <span data-nav-label>Menu</span>
+        </button>
+        <a class="cart-link" href="cart.html">Cart <span class="cart-count" data-cart-count data-empty="true">0</span></a>
+      </div>
+      <nav class="site-nav" id="site-nav" data-nav-panel aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="shipping-policy.html">Shipping</a></li>
+        <li><a href="refund-policy.html">Returns</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="header-note">Shipping is $8.95 flat. Free standard shipping on US orders over $65. Sales tax calculated at checkout where applicable.</p>
+  </header>
+  <main id="main">
+    <div class="page-head">
+      <div class="shell">
+        <h1>Your cart</h1>
+        <p>US dollars. Shipping is $8.95 flat. Free standard shipping on US orders over $65. Sales tax is calculated at checkout where applicable.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="shell">
+        <p class="sr-only" role="status" data-cart-status></p>
+
+        <div data-cart-empty hidden>
+          <div class="detail-card measure">
+            <h2>Empty as a Sunday</h2>
+            <p>Nothing in the cart yet. It lives in this browser only — we cannot see it and it is not
+               sent anywhere.</p>
+            <p><a class="btn btn-primary" href="shop.html">Go and have a look</a></p>
+          </div>
+        </div>
+
+        <div data-cart-full hidden>
+          <table class="cart-table">
+            <caption><span data-cart-words>0 items</span> in your cart</caption>
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Line total</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody data-cart-body></tbody>
+          </table>
+
+          <div class="cart-summary measure">
+            <h2>The damage</h2>
+            <dl>
+              <dt>Subtotal</dt>
+              <dd data-subtotal>$0.00</dd>
+              <dt>Standard shipping</dt>
+              <dd data-shipping>$8.95</dd>
+              <dt>Estimated sales tax</dt>
+              <dd>Calculated at checkout</dd>
+              <div class="total-row"></div>
+              <dt class="total-row">Total before tax</dt>
+              <dd class="total-row" data-total>$0.00</dd>
+            </dl>
+            <p class="cart-note" data-ship-note></p>
+            <p class="cart-note">Sales tax is calculated at checkout from your delivery address where
+               applicable. United States delivery only. Returns accepted within 60 days of delivery —
+               see <a href="refund-policy.html">returns and refunds</a>.</p>
+            <button class="btn btn-primary btn-block" type="button" data-checkout>Continue to checkout</button>
+            <div class="checkout-message" hidden data-checkout-message>
+              <h3>Checkout is not open yet</h3>
+              <p>Card payment has not been switched on, and we would rather tell you than show you a
+                 page that fails. Telephone <a href="tel:+15205550183">(520) 555-0183</a> during Monday to Friday, 9:00am to 5:00pm Mountain Standard Time, or email
+                 <a href="mailto:howdy@sundaydrivegoods.com">howdy@sundaydrivegoods.com</a> with the list above. We will confirm the order and send a
+                 payment link.</p>
+              <p>Nothing has been charged and no payment details have been collected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-brand-row">
+      <a class="wordmark" href="index.html">
+        <span class="wm-text">Sunday Drive Goods</span>
+        <span class="wm-sub">Tucson, Arizona</span>
+      </a>
+      <p>Dials that click and enamel that pings. Newly made things in shapes nobody has been brave
+         enough to use since about 1961.</p>
+    </div>
+    <div class="shell footer-cols">
+      <div>
+        <h2>Where to find us</h2>
+        <address class="footer-contact">
+          <strong>Sunday Drive Mercantile LLC</strong>
+          3302 Cottonwood Street<br>
+          Tucson, AZ 85716, United States<br>
+          Telephone <a href="tel:+15205550183">(520) 555-0183</a><br>
+          Email <a href="mailto:howdy@sundaydrivegoods.com">howdy@sundaydrivegoods.com</a><br>
+          Mon–Fri 9am–5pm MST
+        </address>
+      </div>
+      <div>
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="shop.html">All products</a></li>
+            <li><a href="shop.html#radios-and-sound">Radios & Sound</a></li>
+            <li><a href="shop.html#games-and-cards">Games & Cards</a></li>
+            <li><a href="shop.html#kitchen-and-table">Kitchen & Table</a></li>
+            <li><a href="shop.html#clocks-and-frames">Clocks & Frames</a></li>
+          <li><a href="cart.html">Your cart</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>The small print</h2>
+        <ul>
+          <li><a href="contact.html">Contact and FAQ</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="shipping-policy.html">Shipping policy</a></li>
+          <li><a href="refund-policy.html">Returns &amp; refunds</a></li>
+          <li><a href="privacy-policy.html">Privacy policy</a></li>
+          <li><a href="terms-of-service.html">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <p>Prices in US dollars. Shipping is $8.95 flat. Free standard shipping on US orders over $65. Sales tax is calculated at checkout where applicable.</p>
+      <p>Everything here is newly manufactured in a period style. Nothing on this site is an antique
+         or a collectible, and we never describe it as one.</p>
+      <p>&copy; 2026 Sunday Drive Mercantile LLC. We ship within the United States only.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
